@@ -1,0 +1,11 @@
+
+et what things you'll put there. For now, you just gather things into a basket. You can take things out of the basket if you decide that they aren't valuable enough to store in a lock box, and you can add things to the basket as you wish. With Git, this basket is the staging area. When you move files to the staging area in Git, you actually gather and prepare files for Git before committing them to the local repository.
+To let Git track files for a commit, we need to run the following in the terminal:
+
+$ git add my_new_file.txt
+view raw
+adding-files-to-the-git-staging-area hosted with ❤ by GitHub 
+That's it; you've added a file to the staging area with the "add" command. Don't forget to pass a filename to this command so Git knows which file to track.
+But what has this "add" command actually done? Let's view an updated status (we promised that you'll often run "git status", didn't we?):
+
+$ git status
